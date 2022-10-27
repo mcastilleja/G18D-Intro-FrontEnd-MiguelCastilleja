@@ -1,8 +1,10 @@
+import Card from "./Card";
+
 function Dashboards() {
   return (
-    <div>
-        <span>Componente Dashboards!</span>
-    </div>
+    <>
+      <Card/>
+    </>
   );
 }
 
