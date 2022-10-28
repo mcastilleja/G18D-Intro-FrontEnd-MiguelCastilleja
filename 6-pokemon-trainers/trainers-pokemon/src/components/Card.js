@@ -36,7 +36,7 @@ function Card({ trainerComponent }) { // props: { trainerComponent: {}, children
 
 
 
-                <a href="#" className="more-info">más información</a>
+                <a href="." className="more-info">más información</a>
             </div>
         </div>
         </>

@@ -1,6 +1,6 @@
 function NavBar() {
 
-  const menus = [];
+  // const menus = [];
 
   return (
     <>
@@ -10,17 +10,17 @@ function NavBar() {
         </div>
         <ul className="nav-items">
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="." className="nav-link">
                 Inicio
               </a>  
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="." className="nav-link">
               Nuevo entrenador
               </a>  
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="." className="nav-link">
               Acerca de nosotros
               </a>  
             </li>
