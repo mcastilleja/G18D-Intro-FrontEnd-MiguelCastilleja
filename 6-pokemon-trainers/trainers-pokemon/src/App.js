@@ -1,18 +1,23 @@
 import React from 'react';
 import './App.css';
-import Dashboards from './components/Dashboard';
 import NavBar from './components/NavBar';
-import SearchFilters from './components/SearchFilters';
+import AboutPage from './pages/AboutPage';
+import CreatePage from './pages/CreatePage';
+import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
     <React.Fragment>
-    <div>
-      <span>Componente App!</span>
-    </div>
-    <NavBar></NavBar>
-    <SearchFilters></SearchFilters>
-    <Dashboards></Dashboards>
+
+      <div>
+        <span>Componente App!</span>
+      </div>
+      <NavBar></NavBar>
+
+      <SearchPage/> 
+      <CreatePage/>
+      <AboutPage/>
+
     </React.Fragment>
   );
 }

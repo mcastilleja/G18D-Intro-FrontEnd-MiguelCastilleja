@@ -1,7 +1,7 @@
 function Card () {
     return(
         <>
-            Hola soy la Card
+            Hola soy la Card!
         {/* Maquetar esta seccion later */}
         </>
     );
