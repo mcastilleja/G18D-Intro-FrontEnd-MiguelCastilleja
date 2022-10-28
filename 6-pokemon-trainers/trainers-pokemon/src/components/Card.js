@@ -1,8 +1,8 @@
-function Card () {
+function Card() {
     return(
         <>
             Hola soy la Card!
-        {/* Maquetar esta seccion later */}
+            {/* maquetar esta seccion later */}
         </>
     );
 }

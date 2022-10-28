@@ -1,10 +1,10 @@
-import SearchFilters from '../components/SearchFilters';
-import Card from '../components/Card';
+import Card from "../components/Card";
+import SearchFilters from "../components/SearchFilters";
 
 function CreatePage() {
-    return (
+    return(
         <>
-            <SearchFilters/>
+            <SearchFilters></SearchFilters>
             <Card/>
             <Card/>
             <Card/>

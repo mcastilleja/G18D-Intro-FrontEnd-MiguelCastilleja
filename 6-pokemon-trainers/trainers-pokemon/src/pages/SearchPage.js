@@ -1,8 +1,7 @@
 function SearchPage() {
-    return (
+    return(
         <>
-            Hola soy una pagina para Buscar
-            {/* Maquetar luego */}
+            SearchPage
         </>
     );
 }

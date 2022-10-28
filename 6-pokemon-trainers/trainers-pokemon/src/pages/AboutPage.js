@@ -1,8 +1,7 @@
 function AboutPage() {
-    return (
+    return(
         <>
-            Hola soy una pagina de AboutPage
-            {/* Maquetar luego */}
+            AboutPage
         </>
     );
 }
